@@ -4,121 +4,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kostadin Kadiev - Software Engineer & Team Lead</title>
-    <meta name="description" content="Software Engineer & Team Lead at 3Shape. 12+ years building enterprise systems. Azure Solutions Architect Expert.">
+    <meta name="description" content="Software Engineer & Team Lead at 3Shape. 15+ years building enterprise systems. Azure Solutions Architect Expert.">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            200: '#e2e8f0',
+                            300: '#cbd5e1',
+                            400: '#94a3b8',
+                            500: '#64748b',
+                            600: '#475569',
+                            700: '#334155',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                            950: '#020617',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
         .gradient-text {
-            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased">
+<body class="bg-dark-900 text-dark-200 antialiased">
 
-    <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-slate-200 z-50">
-        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-xl font-bold text-slate-900">KK</a>
-            <div class="hidden md:flex gap-6 text-sm font-medium text-slate-600">
-                <a href="#about" class="hover:text-blue-500 transition">About</a>
-                <a href="#work" class="hover:text-blue-500 transition">Work</a>
-                <a href="#talks" class="hover:text-blue-500 transition">Talks</a>
-                <a href="#contact" class="hover:text-blue-500 transition">Contact</a>
+    <nav class="fixed top-0 w-full bg-dark-900/80 backdrop-blur-md border-b border-dark-700 z-50">
+        <div class="max-w-3xl mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-lg font-bold text-white">KK</a>
+            <div class="hidden md:flex gap-4 text-sm font-medium text-dark-400">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#work" class="hover:text-blue-400 transition">Work</a>
+                <a href="#talks" class="hover:text-blue-400 transition">Talks</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
             </div>
         </div>
     </nav>
 
-    
-    <section class="min-h-screen flex items-center justify-center pt-20">
-        <div class="max-w-3xl mx-auto px-6 text-center">
-            <h1 class="text-5xl md:text-6xl font-bold mb-6">
+    <section class="min-h-[80vh] flex items-center justify-center pt-16">
+        <div class="max-w-3xl mx-auto px-6 text-center py-12">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
                 Kostadin <span class="gradient-text">Kadiev</span>
             </h1>
-            <p class="text-xl text-slate-600 mb-4">
-                Software Engineer & Team Lead at <strong>3Shape</strong>
+            <p class="text-lg text-dark-300 mb-3">
+                Software Engineer & Team Lead at <span class="text-blue-400">3Shape</span>
             </p>
-            <p class="text-slate-500 mb-8">
+            <p class="text-dark-400 mb-5">
                 Building AI-powered dental diagnostics with Trios Dx Plus. Exploring Agentic Engineering.
             </p>
-            <div class="flex flex-wrap justify-center gap-3 text-sm">
-                <span class="bg-blue-50 text-blue-700 px-4 py-2 rounded-full">Azure Solutions Architect Expert</span>
-                <span class="bg-purple-50 text-purple-700 px-4 py-2 rounded-full">15+ Years Experience</span>
+            <div class="flex flex-wrap justify-center gap-2 text-xs">
+                <span class="bg-dark-800 text-blue-400 px-3 py-1.5 rounded-full">Azure Solutions Architect</span>
+                <span class="bg-dark-800 text-purple-400 px-3 py-1.5 rounded-full">15+ Years</span>
             </div>
         </div>
     </section>
 
-    
-    <section id="about" class="py-20 bg-white">
+    <section id="about" class="py-10 bg-dark-800">
         <div class="max-w-3xl mx-auto px-6">
-            <h2 class="text-2xl font-bold mb-6">About</h2>
-            <p class="text-slate-600 leading-relaxed mb-4">
-                I'm a software engineer building the future of digital dentistry at <strong>3Shape</strong>. I lead a team working on <strong>Trios Dx Plus</strong> — AI-powered diagnostics software that helps dentists detect caries, plaque, and oral health conditions from intraoral scans.
+            <h2 class="text-xl font-bold mb-4 text-white">About</h2>
+            <p class="text-dark-300 leading-relaxed mb-4">
+                I'm a software engineer building the future of digital dentistry at <strong class="text-white">3Shape</strong>. I lead a team working on <strong class="text-white">Trios Dx Plus</strong> — AI-powered diagnostics software that helps dentists detect caries, plaque, and oral health conditions from intraoral scans.
             </p>
-            <p class="text-slate-600 leading-relaxed">
-                Previously Head of Technology at IT Labs, where I led teams building financial aid platforms serving <strong>750,000+ students</strong>. I'm an <strong>Azure Solutions Architect Expert</strong> with deep experience in cloud-native systems, microservices, and mentoring high-performing teams.
+            <p class="text-dark-300 leading-relaxed">
+                Previously Head of Technology at <strong class="text-white">IT Labs</strong>, where I led teams building financial aid platforms serving <strong class="text-white">750,000+ students</strong> and processed over <strong class="text-white">$4 Billion</strong> in financial aid. I'm an <strong class="text-white">Azure Solutions Architect Expert</strong> with deep experience in cloud-native systems, microservices, and mentoring high-performing teams.
             </p>
         </div>
     </section>
 
-    
-    <section id="work" class="py-20 bg-slate-50">
+    <section id="work" class="py-10 bg-dark-900">
         <div class="max-w-3xl mx-auto px-6">
-            <h2 class="text-2xl font-bold mb-8">Work</h2>
-            
-            <div class="space-y-8">
-                <div>
-                    <div class="flex items-baseline justify-between mb-2">
-                        <h3 class="text-lg font-bold text-slate-900">3Shape</h3>
-                        <span class="text-sm text-slate-500">Sept 2023 – Present</span>
-                    </div>
-                    <p class="text-blue-600 font-medium mb-2">Senior Software Engineer / Team Lead</p>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Building <strong>Trios Dx Plus</strong> — AI-powered dental diagnostics software. Using machine learning to detect caries, plaque, tooth wear, and gingival recession from intraoral scans. Part of the team transforming intraoral scanners from impression tools into diagnostic platforms.
-                    </p>
-                </div>
-
-                <div>
-                    <div class="flex items-baseline justify-between mb-2">
-                        <h3 class="text-lg font-bold text-slate-900">IT Labs</h3>
-                        <span class="text-sm text-slate-500">2010 – 2023</span>
-                    </div>
-                    <p class="text-blue-600 font-medium mb-2">Head of Technology / Principal Architect</p>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Led technology strategy for the organization. Architected a $4B financial aid platform serving 750,000+ students using microservices on Azure Kubernetes. Built UK Private Fund Reporting platform with CQRS. Team leadership, DevOps, mentoring.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    
-    <section id="talks" class="py-20 bg-white">
-        <div class="max-w-3xl mx-auto px-6">
-            <h2 class="text-2xl font-bold mb-8">Talks</h2>
+            <h2 class="text-xl font-bold mb-6 text-white">Work</h2>
             
             <div class="space-y-6">
-                <div class="p-6 border border-slate-200 rounded-xl hover:border-blue-300 transition">
-                    <h3 class="font-bold mb-2"><a href="https://www.youtube.com/watch?v=ly2r-H2vypk" target="_blank" class="hover:text-blue-500">Re:Imagine Session: To Kubernetes and Beyond →</a></h3>
-                    <p class="text-slate-600 text-sm">Technical talk on Kubernetes deployment patterns, scaling strategies, and cloud-native architecture. Sharing real-world experience from building containerized systems at scale.</p>
+                <div>
+                    <div class="flex items-baseline justify-between mb-1">
+                        <h3 class="text-base font-bold text-white">3Shape</h3>
+                        <span class="text-xs text-dark-500">Sept 2023 – Present</span>
+                    </div>
+                    <p class="text-blue-400 font-medium text-sm mb-2">Senior Software Engineer / Team Lead</p>
+                    <p class="text-dark-400 text-sm leading-relaxed">
+                        Building <strong>Trios Dx Plus</strong> — AI-powered dental diagnostics software. Using machine learning to detect caries, plaque, tooth wear, and gingival recession from intraoral scans. Transforming intraoral scanners from impression tools into diagnostic platforms.
+                    </p>
+                </div>
+
+                <div>
+                    <div class="flex items-baseline justify-between mb-1">
+                        <h3 class="text-base font-bold text-white">IT Labs</h3>
+                        <span class="text-xs text-dark-500">2010 – 2023</span>
+                    </div>
+                    <p class="text-blue-400 font-medium text-sm mb-2">Head of Technology → Principal Architect → Team Lead → Senior Engineer → Developer</p>
+                    <p class="text-dark-400 text-sm leading-relaxed">
+                        <strong>Head of Technology (2021-2023):</strong> Provided overall technical direction, created technology strategy, set quality standards through KPIs/OKRs, managed technology department budget, established client & education center relationships.
+                    </p>
+                    <p class="text-dark-400 text-sm leading-relaxed mt-2">
+                        <strong>Principal Architect (2019-2021):</strong> Architected UK Private Fund Reporting platform using CQRS with Mediator. Led team of 8 engineers. DevOps: Build/Release pipelines as code, infrastructure on Azure Kubernetes.
+                    </p>
+                    <p class="text-dark-400 text-sm leading-relaxed mt-2">
+                        <strong>Senior Engineer & Team Lead (2014-2020):</strong> Built $4B financial aid platform serving 750,000+ students. Microservices on Azure (VMs, App Services, Functions, Durable Functions, Logic Apps, Redis Cache). Coordinated dev team, technical guidance, training interns.
+                    </p>
+                    <p class="text-dark-400 text-sm leading-relaxed mt-2">
+                        <strong>Developer (2010-2014):</strong> Built SaaS student lifecycle solution with .NET, jQuery, ExtJS. Implemented features, unit/integration tests, SpecFlow BDD, Coded UI automation.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    
-    <section id="contact" class="py-20 bg-slate-900 text-white">
-        <div class="max-w-3xl mx-auto px-6 text-center">
-            <h2 class="text-2xl font-bold mb-6">Contact</h2>
+    <section id="talks" class="py-10 bg-dark-800">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-xl font-bold mb-4 text-white">Talks</h2>
             
-            <p class="text-slate-400 mb-6"><a href="mailto:kostadinkadiev@gmail.com" class="hover:text-white transition">kostadinkadiev@gmail.com</a></p>
+            <div class="space-y-4">
+                <div class="p-4 border border-dark-600 rounded-lg hover:border-blue-500 transition">
+                    <h3 class="font-bold mb-1"><a href="https://www.youtube.com/watch?v=ly2r-H2vypk" target="_blank" class="hover:text-blue-400">Re:Imagine Session: To Kubernetes and Beyond →</a></h3>
+                    <p class="text-dark-400 text-sm">Technical talk on Kubernetes deployment patterns, scaling strategies, and cloud-native architecture.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-10 bg-dark-950">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <h2 class="text-xl font-bold mb-4 text-white">Contact</h2>
+            
+            <p class="text-dark-400 mb-4"><a href="mailto:kostadinkadiev@gmail.com" class="hover:text-white transition">kostadinkadiev@gmail.com</a></p>
             
             <div class="flex justify-center gap-4">
-                <a href="https://linkedin.com/in/kostadin-kadiev" target="_blank" class="text-slate-400 hover:text-white transition">LinkedIn →</a>
+                <a href="https://linkedin.com/in/kostadin-kadiev" target="_blank" class="text-dark-400 hover:text-white text-sm transition">LinkedIn →</a>
             </div>
             
-            <p class="mt-12 text-slate-600 text-sm">Skopje, North Macedonia</p>
+            <p class="mt-8 text-dark-600 text-xs">Skopje, North Macedonia</p>
         </div>
     </section>
 
